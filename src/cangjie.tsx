@@ -56,7 +56,7 @@ function SearchListItem({ searchResult, inputMethod }: { searchResult: SearchRes
   const chineseCode = processedCode
     .toLowerCase()
     .split("")
-    .map((char) => cangjieToChinese[char] || char)
+    .map((char) => cangjieToChinese[char] || char);
 
   return (
     <List.Item
