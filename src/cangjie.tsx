@@ -94,7 +94,6 @@ export default function Command() {
           setSearchText(selectedText);
         }
       } catch (error) {
-        showFailureToast(error, { title: "Could not get selected text" });
         setSearchText("");
       } finally {
         setIsLoading(false);
