@@ -1,5 +1,4 @@
 import { Action, ActionPanel, List, getSelectedText } from "@raycast/api";
-import { showFailureToast } from "@raycast/utils";
 import { useState, useEffect } from "react";
 import cangjieData from "./cangjie5_all.json";
 
